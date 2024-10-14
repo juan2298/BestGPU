@@ -1,84 +1,41 @@
 body {
+    
     margin: 0;
     padding: 0;
     font-family: Helvetica;
     background-color: #222;
     color: #fff;
+    min-height: 100vh;
     overflow-x: hidden;
+}
+
+/* TITULOS */
+
+
+h1 {
+    display: none;
+}
+
+
+h2 {
+    max-width: 10em;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 35px #0006;
+    font-size: 1.5em;
+}
+
+
+h3 {
+    text-align: center;
 }
 
 
 /* HEADER */
-
-.header {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    background-image: url("/imagenes/FondoBestGPU2.webp");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-}
-
-/* EFECTO OPACO */
-
-.header_overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #000e;
-    z-index: 10;
-}
-
-/* CONTENEDOR DE H1, LOGO, PARRAFO EN HEADER*/
-
-.header__item-container {
-    position: relative;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-}
-
-/* PARRAFO HEADER*/
-
-.parrafo_inicio {
-    position: relative;
-    text-wrap: pretty;
-    letter-spacing: 1px;
-    text-shadow: 0px 0px 45px #fff3;
-    z-index: 20;
-    padding: 75px 0;
-}
-
-/* NOMBRE DE LA PAGINA EN PARRAFO DE HEADER */
-
-.nombre_pagina{
-    font-size: 20px;
-}
-
-.parrafo_span {
-    font-weight: bold;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-}
-
-/* LOGO BESTGPU HEADER*/
-
-.logo_header {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    box-shadow: 0px 0px 45px #fff1;
-    z-index: 20;
-    margin-top: 40px;
-}
-
-
-
 
 /* BARRA DE NAVEGACION */
 
@@ -145,35 +102,84 @@ body {
     border: 2px solid #fff;
 }
 
-
-
-/* TITULOS */
-
-
-h1 {
-    display: none;
-}
-
-
-h2 {
-    max-width: 10em;
-    text-align: center;
-    margin: auto;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    box-shadow: 0px 0px 35px #0006;
-    font-size: 1.5em;
-}
-
-
-h3 {
-    text-align: center;
-}
-
-
 /* MAIN */
+
+/* INICIO */
+
+.inicio {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("/imagenes/FondoBestGPU2.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+/* EFECTO OPACO */
+
+.inicio_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000e;
+    z-index: 10;
+}
+
+/* CONTENEDOR DE H1, LOGO, PARRAFO EN HEADER*/
+
+.inicio__item-container {
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    width: 100%;
+}
+
+/* PARRAFO HEADER*/
+
+.parrafo_inicio {
+    position: relative;
+    text-wrap: pretty;
+    max-width: 600px;
+    margin: auto;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 45px #fff3;
+    padding: 75px 0;
+    z-index: 20;
+    
+}
+
+/* NOMBRE DE LA PAGINA EN PARRAFO DE HEADER */
+
+.nombre_pagina{
+    font-size: 20px;
+}
+
+.parrafo_span {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* LOGO BESTGPU HEADER*/
+
+.logo_inicio {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 45px #fff1;
+    z-index: 20;
+    margin-top: 40px;
+}
+
+
+
+
+
 
 /* SECCION DE ARTICULOS */
 
