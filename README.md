@@ -23,7 +23,7 @@ encontrar productos a precios más accesibles que los del mercado convencional. 
 1. Clona el repositorio en tu máquina local:
 
     ```bash
-    git clone https://github.com/tu-usuario/bestgpu.git
+    git clone https://github.com/juan2298/bestgpu.git
 
 
 ## Uso
